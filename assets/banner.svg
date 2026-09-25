@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Mox404 systems and security profile banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08111f"/>
+      <stop offset="48%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="45%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#7dd3fc" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+    <clipPath id="clip"><rect width="1200" height="340" rx="24"/></clipPath>
+  </defs>
+
+  <style>
+    .scan { animation: scan 7s linear infinite; }
+    .pulseA { animation: pulseA 2.8s ease-in-out infinite; }
+    .pulseB { animation: pulseB 2.8s ease-in-out 1.4s infinite; }
+    .dash { animation: dash 8s linear infinite; }
+    .blink { animation: blink 1s steps(1,end) infinite; }
+    @keyframes scan { from { transform: translateY(-70px); } to { transform: translateY(410px); } }
+    @keyframes pulseA { 0%,100% { opacity:.22; r:4px; } 50% { opacity:1; r:7px; } }
+    @keyframes pulseB { 0%,100% { opacity:.18; r:3px; } 50% { opacity:.9; r:6px; } }
+    @keyframes dash { to { stroke-dashoffset:-140; } }
+    @keyframes blink { 0%,48% { opacity:1; } 49%,100% { opacity:0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .scan,.pulseA,.pulseB,.dash,.blink { animation:none!important; }
+    }
+  </style>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+    <rect class="scan" x="0" y="-45" width="1200" height="50" fill="url(#accent)" opacity=".03"/>
+
+    <g transform="translate(54 40)">
+      <circle cx="0" cy="0" r="6" fill="#ff5f57"/>
+      <circle cx="22" cy="0" r="6" fill="#febc2e"/>
+      <circle cx="44" cy="0" r="6" fill="#28c840"/>
+      <text x="76" y="5" fill="#64748b" font-size="14" font-family="Consolas,Menlo,monospace">mox404@github:~</text>
+    </g>
+
+    <text x="58" y="116" fill="#f8fafc" font-size="47" font-weight="700" letter-spacing="2.4" font-family="Segoe UI,Arial,sans-serif">MOHIB UR REHMAN</text>
+    <rect x="58" y="134" width="555" height="3" rx="2" fill="url(#accent)"/>
+    <text x="58" y="176" fill="#94a3b8" font-size="17" letter-spacing="1.1" font-family="Consolas,Menlo,monospace">INFRASTRUCTURE  /  NETWORKS  /  SECURITY  /  SOFTWARE</text>
+
+    <text x="58" y="252" fill="#22d3ee" font-size="18" font-family="Consolas,Menlo,monospace">&gt; signal:</text>
+    <g fill="#e2e8f0" font-size="18" font-family="Consolas,Menlo,monospace">
+      <text x="155" y="252" opacity="0">Windows Infrastructure
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.03;.14;.17;1" dur="18s" begin="0s" repeatCount="indefinite"/>
+      </text>
+      <text x="155" y="252" opacity="0">Network Troubleshooting
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.03;.14;.17;1" dur="18s" begin="3s" repeatCount="indefinite"/>
+      </text>
+      <text x="155" y="252" opacity="0">Identity &amp; Access
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.03;.14;.17;1" dur="18s" begin="6s" repeatCount="indefinite"/>
+      </text>
+      <text x="155" y="252" opacity="0">Security Operations
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.03;.14;.17;1" dur="18s" begin="9s" repeatCount="indefinite"/>
+      </text>
+      <text x="155" y="252" opacity="0">Cloud Infrastructure
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.03;.14;.17;1" dur="18s" begin="12s" repeatCount="indefinite"/>
+      </text>
+      <text x="155" y="252" opacity="0">Automation &amp; Support
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.03;.14;.17;1" dur="18s" begin="15s" repeatCount="indefinite"/>
+      </text>
+    </g>
+    <rect class="blink" x="395" y="235" width="9" height="21" fill="#a78bfa"/>
+    <text x="58" y="304" fill="#64748b" font-size="14" font-family="Consolas,Menlo,monospace">TRACE  &gt;  ISOLATE  &gt;  FIX  &gt;  VERIFY</text>
+
+    <g transform="translate(930 170)">
+      <circle r="118" fill="#0b1220" opacity=".72" stroke="#1e293b" stroke-width="1.5"/>
+      <circle r="92" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="5 9" class="dash"/>
+
+      <g stroke="#334155" stroke-width="1.5">
+        <line x1="0" y1="0" x2="-92" y2="-48"/>
+        <line x1="0" y1="0" x2="0" y2="-103"/>
+        <line x1="0" y1="0" x2="95" y2="-42"/>
+        <line x1="0" y1="0" x2="88" y2="58"/>
+        <line x1="0" y1="0" x2="-82" y2="68"/>
+      </g>
+
+      <g font-family="Consolas,Menlo,monospace" font-size="12" text-anchor="middle">
+        <g transform="translate(-92 -48)">
+          <circle r="24" fill="#101827" stroke="#22d3ee" stroke-width="1.5"/>
+          <text y="4" fill="#dbeafe">SYS</text>
+        </g>
+        <g transform="translate(0 -103)">
+          <circle r="24" fill="#101827" stroke="#60a5fa" stroke-width="1.5"/>
+          <text y="4" fill="#dbeafe">NET</text>
+        </g>
+        <g transform="translate(95 -42)">
+          <circle r="24" fill="#101827" stroke="#a78bfa" stroke-width="1.5"/>
+          <text y="4" fill="#ede9fe">IAM</text>
+        </g>
+        <g transform="translate(88 58)">
+          <circle r="24" fill="#101827" stroke="#22d3ee" stroke-width="1.5"/>
+          <text y="4" fill="#dbeafe">SEC</text>
+        </g>
+        <g transform="translate(-82 68)">
+          <circle r="24" fill="#101827" stroke="#60a5fa" stroke-width="1.5"/>
+          <text y="4" fill="#dbeafe">CLD</text>
+        </g>
+      </g>
+
+      <circle r="42" fill="#0f172a" stroke="url(#accent)" stroke-width="2.2" filter="url(#glow)"/>
+      <text x="0" y="-4" text-anchor="middle" fill="#f8fafc" font-size="17" font-weight="700" font-family="Consolas,Menlo,monospace">MOX</text>
+      <text x="0" y="16" text-anchor="middle" fill="#94a3b8" font-size="12" font-family="Consolas,Menlo,monospace">404</text>
+
+      <circle class="pulseA" cx="-46" cy="-24" r="4" fill="#22d3ee"/>
+      <circle class="pulseB" cx="47" cy="-21" r="4" fill="#a78bfa"/>
+      <circle class="pulseA" cx="44" cy="29" r="4" fill="#22d3ee"/>
+      <circle class="pulseB" cx="-41" cy="34" r="4" fill="#60a5fa"/>
+      <circle class="pulseA" cx="0" cy="-52" r="4" fill="#60a5fa"/>
+    </g>
+  </g>
+</svg>
