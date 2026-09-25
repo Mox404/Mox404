@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mohib-r-519a30318/"><img src="./assets/linkedin.svg" width="150" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/mohib-u-rehman/"><img src="./assets/linkedin.svg" width="150" alt="LinkedIn" /></a>
   <a href="https://github.com/Mox404/IT-Portfolio"><img src="./assets/portfolio.svg" width="150" alt="Portfolio" /></a>
   <a href="https://www.credly.com/users/mohib-rehman.3c4906f3"><img src="./assets/credly.svg" width="150" alt="Credly" /></a>
 </p>
